@@ -1,2 +1,1 @@
-This is my Professional Portfolio
-All temporary files will be deleted, once content is added.
+This is my Professional Portfolio. I recreated the Portfolio from the ground up utilizing CSS Grid.
