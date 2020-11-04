@@ -32,6 +32,11 @@ body {
     text-transform: uppercase;
 }
 
+a {
+    text-decoration: none;
+    color: #E7ECEF;
+}
+
 .grid-main {
     color: #1C3144;
     grid-area: main;
@@ -177,7 +182,7 @@ li {
         background-color: #6096BA;
         */
         height: 300px;
-        width: 90%;
+        width: 80%;
         border-radius: 5px;
         box-shadow: 0 0 4px 1px #8B8C89;
         margin-bottom: 10px;
@@ -230,7 +235,7 @@ li {
         background-color: #6096BA;
         */
         height: 500px;
-        width: 90%;
+        width: 80%;
         border-radius: 5px;
         box-shadow: 0 0 4px 1px #8B8C89;
         margin-bottom: 10px;
