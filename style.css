@@ -160,19 +160,15 @@ li {
     .grid-linkedin {
         grid-area: linkedin;
     }
-    
     .grid-resume {
         grid-area: resume;
     }
-    
     .grid-email {
         grid-area: email;
     }
-    
     .grid-github {
         grid-area: github;
     }
-    
     .grid-initials {
         display: none;
     }
