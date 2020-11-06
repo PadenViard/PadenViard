@@ -181,8 +181,8 @@ li {
         /*
         background-color: #6096BA;
         */
-        height: 300px;
-        width: 80%;
+        height: 440px;
+        width: 320px;
         border-radius: 5px;
         box-shadow: 0 0 4px 1px #8B8C89;
         margin-bottom: 10px;
@@ -213,19 +213,15 @@ li {
     .grid-linkedin {
         grid-area: linkedin;
     }
-    
     .grid-resume {
         grid-area: resume;
     }
-    
     .grid-email {
         grid-area: email;
     }
-    
     .grid-github {
         grid-area: github;
     }
-    
     .grid-initials {
         display: none;
     }
@@ -234,8 +230,8 @@ li {
         /*
         background-color: #6096BA;
         */
-        height: 500px;
-        width: 80%;
+        height: 440px;
+        width: 320px;
         border-radius: 5px;
         box-shadow: 0 0 4px 1px #8B8C89;
         margin-bottom: 10px;
