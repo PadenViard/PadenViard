@@ -1,89 +1,61 @@
 <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
     <head>
-        <title>Paden Viard - Developer</title>
-        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Paden Viard | Portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
-        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/180b3565cf.js" crossorigin="anonymous"></script>
     </head>
-
     <body>
-        <div class="container">
-            <nav class="grid-nav">
-                <ul class="grid-ul">
-                    <li class="grid-linkedin"><a class="nav-link" href="https://www.linkedin.com/in/padenviard/" target="_blank">Linkedin</a></li>
-                    <li class="grid-resume"><a class="nav-link" href="documents/Paden Viard Resume.pdf" download>Resume</a></li>
-                    <li class="grid-email"><a class="nav-link" href="mailto:padenviard@yahoo.com">Email</a></li>
-                    <li class="grid-github"><a class="nav-link" href="https://github.com/PadenViard" target="_blank">GitHub</a></li>
-                    <li class="grid-initials">PV</li>
-                </ul>
-            </nav>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
 
-            <main class="grid-main">
-                <h1 class="grid-header">Paden Viard</h1>
-                <p class="grid-title">Web Developer | Full Stack Developer</p>
-            </main>
+        <!--This is the main container for my portfolio.-->
+        <div class='container'>
+            <header>
+                <h1 class='heading pacifico_font'>Paden Viard</h1>
+                <h4 class='position'>Front End Web Developer</h4>
+            </header>
+            
+            <footer>
+                <a class="nav-link" href="mailto:padenviard@yahoo.com"><i class="fas fa-envelope-square fa-2x icons" title='Email'></i></a>
+                <a class="nav-link" href="documents/Paden Viard Resume.pdf" download><i class="fas fa-file-alt fa-2x icons" title='Resume'></i></a>
+                <a class="nav-link" href="https://www.linkedin.com/in/padenviard/" target="_blank"><i class="fab fa-linkedin fa-2x icons" title='LinkedIn'></i></a>
+                <a class="nav-link" href="https://github.com/PadenViard" target="_blank"><i class="fab fa-github-square fa-2x icons" title='GitHub'></i></a>
+                <p class='copyright'>&copy; 2021 | Paden Viard </p>
+            </footer>
 
-            <div class="grid-cards">
-                <div class="card" id="card1">
-                    <div class="card-img">
-                        <img src="photos/ASLC.png" alt="Image of All Saints Lutheran Church Project">
-                    </div>
-                    <div class="card-txt">
-                        <h4 class="card-header">All Saints Lutheran Church</h4>
-                        <p>Languages: HTML, CSS, Bootstrap 4, JavaScript, and jQuery</p>
-                        <p>Description: Website designed for the use of my old chuurch.</p>
-                    </div>
-                </div>
-
-                <div class="card" id="card2">
-                    <div class="card-img">
-                        <img src="photos/portfolio.png" alt="An image of my old portfolio">
-                    </div>
-                    <div class="card-txt">
-                        <h4 class="card-header">My Old Portfolio</h4>
-                        <p>Languages: HTML, CSS, Bootstrap 4, and JavaScript</p>
-                        <p>Description: This was my old portfolio that I developed to display my portfolio.</p>
-                    </div>
-                </div>
-
-                <div class="card" id="card3">
-                    <div class="card-img">
-                        <img src="photos/PlayGen.png" alt="A Playthough Generator">
-                    </div>
-                    <div class="card-txt">
-                        <h4 class="card-header">Playthrough Generator</h4>
-                        <p>Languages: HTML, CSS, Bootstrap 4, JavaScript, and jQuery</p>
-                        <p>Description: A webpage that I developed to help generate playthroughs for different video games.</p>
-                    </div>
-                </div>
-
-                <div class="card" id="card4">
-                    <div class="card-img">
-                        <img src="photos/google_clone_page.png" alt="A Clone of Google Homepage">
-                    </div>
-                    <div class="card-txt">
-                        <h4 class="card-header">Google Clone Page</h4>
-                        <p>Languages: HTML and CSS</p>
-                        <p>Description: This was a project that I created while following The Odin Project.</p>
-                    </div>
-                </div>
-
-                <div class="card" id="card5">
-                    <div class="card-img">
-                        <img src="photos/current_portfolio.png" alt="An image of my current portfolio.">
-                    </div>
-                    <div class="card-txt">
-                        <h4 class="card-header">Current Portfolio</h4>
-                        <p>Languages: HTML and CSS</p>
-                        <p>Description: My current portfolio created utilizing CSS Grid.</p>
-                    </div>
-                </div>
+            <div class='project_1 projects'>
+                <img src="photos/ASLC.png" class='project_img'>
             </div>
 
-            <footer class="grid-footer">
-                <p class="copyright">&copy; 2020 - Paden Viard</p>
-            </footer>
+            <div class='project_2 projects'>
+                <img src="photos/portfolio.png" class='project_img'>
+            </div>
+
+            <div class='project_3 projects'>
+                <img src="photos/PlayGen.png" class='project_img'>
+            </div>
+
+            <div class='project_4 projects'>
+                <img src="photos/google_clone_page.png" class='project_img'>
+            </div>
+
+            <div class='project_5 projects'>
+                <img src="photos/current_portfolio.png" class='project_img'>
+            </div>
         </div>
+        
+        <script src="" async defer></script>
     </body>
 </html>
